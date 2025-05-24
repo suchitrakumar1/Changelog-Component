@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog Component</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .component {
+            margin: 21px;
+            min-height: 95vh;
+            width: 60vw;
+            background-color: rgb(240, 240, 240);
+            border-radius: 20px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+            border: 2px solid black;
+
+
+        }
+
+        .h1 {
+            font-size: xx-large;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 60px;
+            letter-spacing: 2px;
+        }
+
+        .para1 {
+            /* margin-top: 20px; */
+            font-size: 16px;
+            font-weight: 100;
+            color: gray;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container-main {
+            /* border-left: 3px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container-real {
+            margin-top: 50px;
+            border-left: 3px solid black;
+            padding-left: 80px;
+        }
+
+        .date {
+            color: grey;
+            font-weight: 90;
+            font-size: small;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .works {
+            font-weight: normal;
+            font-size: normal;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .visitbtn {
+            margin-top: 40px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            font-size: 17px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="component">
+        <div class="container-main">
+            <h1 class="h1">Changelog</h1>
+            <p class="para1">Here's Everything That We Have Shipped In The Past Few Days</p>
+        </div>
+        <div class="container-real">
+            <p class="date"> September 3,2024</p>
+            <div class="works">Announcing Projects on Frontend Roadmap</div>
+            <br>
+            <p class="date"> August 28, 2024</p>
+            <div class="works">Build your learning habits with learning streaks</div>
+            <br>
+            <p class="date"> August 25, 2024</p>
+            <div class="works">Git and GitHub Roadmap</div>
+            <br>
+            <p class="date">August 22, 2024</p>
+            <div class="works">Submit your project solution and get feedback</div>
+            <br>
+            <p class="date"> August 15, 2024</p>
+            <div class="works">Backend Project Ideas</div>
+            <br>
+            <p class="date"> August 10, 2024</p>
+            <div class="works">Redis roadmap</div>
+            <br>
+            <p class="date"> August 1, 2024</p>
+            <div class="works">Changelog page to help you stay in the loop</div>
+
+        </div>
+        <button class="visitbtn">
+            Visit Complete Changelog
+        </button>
+
+    </div>
+
+</body>
+
+</html>

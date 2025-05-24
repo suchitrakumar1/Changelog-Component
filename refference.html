@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Changelog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 500px;
+      padding: 2rem;
+      border: 2px solid #000;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p.subheading {
+      color: gray;
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+
+    .timeline {
+      position: relative;
+      margin: 0 auto;
+      padding: 0 1rem;
+      border-left: 2px solid #000000;
+    }
+
+    .timeline-entry {
+      position: relative;
+      padding: 1rem 0 1rem 2rem;
+    }
+
+    .timeline-entry::before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      top: 1.2rem;
+      width: 12px;
+      height: 12px;
+      background-color: #000000;
+      border-radius: 50%;
+    }
+
+    .date {
+      color: #888;
+      font-size: 0.85rem;
+      text-align: left;
+    }
+
+    .desc {
+      text-align: left;
+      font-weight: 500;
+      margin-top: 0.2rem;
+    }
+
+    .btn {
+      margin-top: 2rem;
+      padding: 0.7rem 1.2rem;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .btn:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Changelog</h1>
+    <p class="subheading">Here's everything we have shipped in the past few days</p>
+    <div class="timeline">
+      <div class="timeline-entry">
+        <div class="date">September 3, 2024</div>
+        <div class="desc">Announcing Projects on Frontend Roadmap</div>
+      </div>
+      <div class="timeline-entry">
+        <div class="date">August 28, 2024</div>
+        <div class="desc">Build your learning habits with learning streaks</div>
+      </div>
+      <div class="timeline-entry">
+        <div class="date">August 25, 2024</div>
+        <div class="desc">Git and GitHub Roadmap</div>
+      </div>
+      <div class="timeline-entry">
+        <div class="date">August 22, 2024</div>
+        <div class="desc">Submit your project solution and get feedback</div>
+      </div>
+      <div class="timeline-entry">
+        <div class="date">August 15, 2024</div>
+        <div class="desc">Backend Project Ideas</div>
+      </div>
+      <div class="timeline-entry">
+        <div class="date">August 10, 2024</div>
+        <div class="desc">Redis roadmap</div>
+      </div>
+      <div class="timeline-entry">
+        <div class="date">August 1, 2024</div>
+        <div class="desc">Changelog page to help you stay in the loop</div>
+      </div>
+    </div>
+    <button class="btn">Visit Complete Changelog</button>
+  </div>
+</body>
+</html>
